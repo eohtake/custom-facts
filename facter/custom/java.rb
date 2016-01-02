@@ -24,7 +24,7 @@ Facter.add('javaplugin64') do
     if RUBY_PLATFORM.downcase.include?('mswin') or RUBY_PLATFORM.downcase.include?('mingw32')
       require 'win32/registry'
 
-      # Counter for the iteration as the keys are found, this is increased by 1.
+      # Counter for the iteration as the keys are found, this is increased by 1..
       # i = 0
 
       # Preparing the array that will hold the keys found in registry.
